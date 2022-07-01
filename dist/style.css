@@ -1,0 +1,104 @@
+body {
+  text-align: center;
+  font-family: Verdana;
+  background-color: #FFFFED;
+
+}
+
+.input-container {
+  margin-top: 50px;
+}
+
+button {
+  font-size: 2rem;
+  align-items: center;
+  width: 50px;
+  height: 47px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color:  	#4169E1;
+  -webkit-box-shadow: inset 2px -2px 14px -1px rgba(0,0,0,0.41); 
+box-shadow: inset 2px -2px 14px -1px rgba(0,0,0,0.41);
+  -webkit-box-shadow: -1px 1px 14px -1px rgba(0,0,0,0.48); 
+box-shadow: -1px 1px 14px -1px rgba(0,0,0,0.48);
+}
+
+.to-dos {
+  margin-top: 24px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#input-field {
+  background: 2px solid #000000
+12%;
+  color: #000000
+87%;
+  font-size: 2rem;
+  width: 45%;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 12px;
+  border: 1.5px solid black;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+li {
+  text-align: left;
+  font-size: 32px;
+  text-align: left;
+	list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  width: 50%;
+  height: auto;
+	padding: 16px 16px;
+	font-weight: 550;
+	border: 1px solid black;
+	border-radius: 4px;
+  background-color: #fbfcfc;
+  -webkit-box-shadow: 0px 3px 12px 5px rgba(28,28,28,0.45); 
+box-shadow: 0px 3px 12px 5px rgba(28,28,28,0.45);
+  
+  display: inline-block;
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#done-button > * {
+  pointer-events: none;
+}
+
+span {
+  float: right;
+  padding-top: 3px;
+  margin-left: 26px;
+  vertical-align: center;
+  height: 48dp;
+  width: 88dp;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+#done-button {
+  float: left;
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.done {
+  background-color: #36454F !important;
+}
